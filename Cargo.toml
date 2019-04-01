@@ -1,0 +1,17 @@
+[package]
+name = "uart_16550"
+version = "0.2.0"
+description = "Abstraction of the UART 16550 chip on PC."
+keywords = ["uart", "16550","x86", "os"]
+license = "MIT"
+authors = [
+    "Lachlan Sneff <lachlan.sneff@gmail.com>",
+    "韩朴宇 <w12101111@gmail.com>"
+]
+repository = "https://github.com/12101111/uart_16550"
+homepage = "https://github.com/12101111/uart_16550"
+edition = "2018"
+
+[dependencies]
+x86_64 = "0.5"
+bitflags = "1.0"
