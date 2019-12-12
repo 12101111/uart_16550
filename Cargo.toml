@@ -13,5 +13,5 @@ homepage = "https://github.com/12101111/uart_16550"
 edition = "2018"
 
 [dependencies]
-x86_64 = "0.7"
+x86_64 = "0.8"
 bitflags = "1.2.1"
